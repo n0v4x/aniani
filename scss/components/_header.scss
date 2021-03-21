@@ -1,0 +1,32 @@
+$header-z-index: 1000;
+$header-bg: $body-bg;
+$header-height: 70px;
+$header-title-font-family: $font-family-montserrat;
+$header-title-weight: $font-weight-bold;
+$header-title-color: $primary;
+$header-title-text-transform: uppercase;
+$header-title-font-size: $font-size-xl;
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $header-bg;
+  z-index: $header-z-index;
+
+  &__inner {
+    height: $header-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: $header-title-font-family;
+    color: $header-title-color;
+    font-weight: $header-title-weight;
+    text-transform: $header-title-text-transform;
+    font-size: $header-title-font-size;
+  }
+}

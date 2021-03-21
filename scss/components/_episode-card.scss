@@ -1,0 +1,104 @@
+$episode-card-inner-bg: transparentize($primary, 1);
+
+$episode-card-padding: 10px;
+$episode-card-image-wrapper-border-radius: $border-radis-md;
+$episode-card-image-overlay-bg: transparentize($black, 0.8);
+
+$episode-card-play-btn-size: 55px;
+$episode-card-play-btn-shadow: 50px;
+$episode-card-play-btn-bg: $primary;
+$episode-card-paly-btn-bottom: -($episode-card-play-btn-size / 2);
+$episode-card-paly-btn-right: $episode-card-image-wrapper-border-radius;
+$episode-card-paly-btn-z-index: 5;
+$episode-card-play-btn-icon-color: $gray-light;
+$episode-card-play-btn-icon-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+
+$episode-card-episode-and-type-font-size: $font-size-sm;
+$episode-card-episode-and-type-color: $primary;
+$episode-card-episode-and-type-margin-bottom: 5px;
+
+$episode-card-name-font-size: $font-size-sm;
+$episode-card-bottom-padding: 10px;
+
+.episode-card {
+  width: 50%;
+  padding: $episode-card-padding;
+  z-index: -1;
+
+  &__inner {
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $episode-card-inner-bg;
+  }
+
+  &__top {
+    height: 1 1 100%;
+    position: relative;
+  }
+
+  &__image-wrapper {
+    border-radius: $episode-card-image-wrapper-border-radius;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+  }
+
+  &__image-overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: $episode-card-image-overlay-bg;
+  }
+
+  &__play-btn {
+    width: $episode-card-play-btn-size;
+    height: $episode-card-play-btn-size;
+    border-radius: 100%;
+    background-color: $episode-card-play-btn-bg;
+    position: absolute;
+    bottom: $episode-card-paly-btn-bottom;
+    right: $episode-card-paly-btn-right;
+    z-index: $episode-card-paly-btn-z-index;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  }
+
+  &__play-btn-icon {
+    color: $episode-card-play-btn-icon-color;
+    fill: $episode-card-play-btn-icon-color;
+    filter: drop-shadow($episode-card-play-btn-icon-shadow);
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 5px $black;
+  }
+
+  &__image {
+    position: relative;
+    width: 100%;
+  }
+
+  &__episode-and-type {
+    text-transform: uppercase;
+    font-size: $episode-card-episode-and-type-font-size;
+    color: $episode-card-episode-and-type-color;
+    margin: 0 0 $episode-card-episode-and-type-margin-bottom 0;
+  }
+
+  &__bottom {
+    padding: $episode-card-bottom-padding;
+  }
+
+  &__name {
+    font-size: $episode-card-name-font-size;
+    margin: 0;
+  }
+}

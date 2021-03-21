@@ -1,0 +1,6 @@
+$main-margin-top: $header-height;
+$main-margin-bottom: $tabbar-height + $tabbar-after-height;
+
+.main {
+  margin: $main-margin-top 0 $main-margin-bottom 0;
+}

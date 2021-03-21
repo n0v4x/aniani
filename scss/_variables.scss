@@ -1,0 +1,62 @@
+// colors
+
+$black: #000;
+$red: #ff5e5e;
+$gray: #d4d4d4;
+$gray-light: #ebebeb;
+
+$primary: $red;
+
+$text-color-primary: $primary;
+$text-color-base: $gray;
+
+// border
+
+$border-width: 1px;
+$border-color: darken($primary, 50%);
+$border-radis-xs: 2px;
+$border-radis-sm: 4px;
+$border-radis-md: 8px;
+$border-base: $border-width solid $border-color;
+
+$padding-xs: rem(5px);
+$padding-sm: rem(10px);
+$padding-md: rem(15px);
+$padding-lg: rem(20px);
+$padding-xl: rem(30px);
+
+$margin-xs: $padding-xs;
+$margin-sm: $padding-sm;
+$margin-md: $padding-md;
+$margin-lg: $padding-lg;
+$margin-xl: $padding-xl;
+
+// unitls
+
+$container-padding-x: $padding-lg;
+
+// typography
+
+$font-family-roboto: Roboto, sans-serif;
+$font-family-montserrat: Montserrat, sans-serif;
+$font-family-base: $font-family-roboto;
+
+$font-size-base: 16px;
+$font-size-xs: rem(12px);
+$font-size-sm: rem(14px);
+$font-size-md: rem(16px);
+$font-size-lg: rem(24px);
+$font-size-xl: rem(28px);
+
+$font-weight-regular: 400;
+$font-weight-bold: 600;
+$font-weight-black: 900;
+
+$line-height-base: 1.4;
+
+// body
+
+$body-bg: $black;
+$body-color: $text-color-base;
+$body-font-family: $font-family-base;
+$body-line-height: $line-height-base;

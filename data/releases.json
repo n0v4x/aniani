@@ -1,0 +1,145 @@
+{
+  "page": 1,
+  "releases": [
+    {
+      "id": "4n07",
+      "name": "houkago teibou nisshi",
+      "img": "https://static.akacdn.ru/files/images/2020/04/1579ea4509e34ca742eff104392bb1d4.jpg",
+      "type": "sub",
+      "episode": "4"
+    },
+    {
+      "id": "qwp5",
+      "name": "umayon",
+      "img": "https://static.akacdn.ru/files/images/2020/07/96e11af3bd426d675f607b051f8e001e.jpg",
+      "type": "sub",
+      "episode": "4"
+    },
+    {
+      "id": "oz24",
+      "name": "the furious yama",
+      "img": "https://static.akacdn.ru/files/images/2020/07/f858bb45316cdba674ac3f61a19a6423.jpg",
+      "type": "sub",
+      "episode": "1"
+    },
+    {
+      "id": "65r7",
+      "name": "wuxian shaonu 48",
+      "img": "https://static.akacdn.ru/files/images/e/e7/e77b7d45ec3c66af808a5d0a0305925b.jpg",
+      "type": "sub",
+      "episode": "4"
+    },
+    {
+      "id": "54x9",
+      "name": "muhyo & roji's bureau of supernatural investigation 2nd season",
+      "img": "https://static.akacdn.ru/files/images/2020/03/d0966e71e8d3a5d876be8372bc916fb2.jpg",
+      "type": "sub",
+      "episode": "4"
+    },
+    {
+      "id": "v2k6",
+      "name": "black clover",
+      "img": "https://static.akacdn.ru/files/images/2018/05/4c127405d9fa8f78a9d86052721cbefe.jpg",
+      "type": "sub",
+      "episode": "136"
+    },
+    {
+      "id": "54yv",
+      "name": "shadowverse (tv)",
+      "img": "https://static.akacdn.ru/files/images/2020/04/011b78bf0ba9eb211f5e6aa99c1e7aee.jpg",
+      "type": "sub",
+      "episode": "16"
+    },
+    {
+      "id": "ny1k",
+      "name": "recorder to randoseru mi☆ special",
+      "img": "https://static.akacdn.ru/files/images/2020/07/32d1b0f4a11906ce67a698d288e0aa03.jpg",
+      "type": "sub",
+      "episode": "special"
+    },
+    {
+      "id": "lr4n",
+      "name": "recorder and randsell mi",
+      "img": "https://static.akacdn.ru/files/images/2018/04/20438d5da59f943384997ab48cc1e30a.jpg",
+      "type": "sub",
+      "episode": "12"
+    },
+    {
+      "id": "jp62",
+      "name": "recorder and randsell re",
+      "img": "https://static.akacdn.ru/files/images/2018/04/41b3c7b318b4c28a4f9448161452d440.jpg",
+      "type": "sub",
+      "episode": "13"
+    },
+    {
+      "id": "3zj2",
+      "name": "oishinbo",
+      "img": "https://static.akacdn.ru/files/images/2018/04/d7e2317dab88f1f266c50c589aebf981.jpg",
+      "type": "sub",
+      "episode": "15"
+    },
+    {
+      "id": "6o6p",
+      "name": "time bokan series: yatterman",
+      "img": "https://static.akacdn.ru/files/images/2018/04/bce3c955c0145a8ac64a4ff6df26ea3e.jpg",
+      "type": "sub",
+      "episode": "32"
+    },
+    {
+      "id": "10lw",
+      "name": "wu shang shen di",
+      "img": "https://static.akacdn.ru/files/images/7/7b/7bdaf11088eb978f7e805e5c2d647172.jpg",
+      "type": "sub",
+      "episode": "23"
+    },
+    {
+      "id": "r2zo",
+      "name": "dubu xiaoyao",
+      "img": "https://static.akacdn.ru/files/images/d/d0/d0c172ebcb87ca43a1053719c4a2b9c2.jpg",
+      "type": "sub",
+      "episode": "15"
+    },
+    {
+      "id": "1k3q",
+      "name": "fruits basket 2nd season",
+      "img": "https://static.akacdn.ru/files/images/2019/08/405f78fd637464ce8d4715ce6164cb87.jpg",
+      "type": "sub",
+      "episode": "17"
+    },
+    {
+      "id": "m90v",
+      "name": "one piece x nissin cup noodles",
+      "img": "https://static.akacdn.ru/files/images/2020/07/f50b456cc356c4d31930b10c512d3dbb.jpg",
+      "type": "sub",
+      "episode": "4"
+    },
+    {
+      "id": "zm72",
+      "name": "chou futsuu toshi kashiwa densetsu r",
+      "img": "https://static.akacdn.ru/files/images/5/5c/5c4f6cee064a41fb0fd6410443b434fd.jpg",
+      "type": "sub",
+      "episode": "3"
+    },
+    {
+      "id": "p01x",
+      "name": "the god of high school",
+      "img": "https://static.akacdn.ru/files/images/a/a4/a4574f15a407a592a4201f1cf0dade84.jpg",
+      "type": "sub",
+      "episode": "4"
+    },
+    {
+      "id": "43jk",
+      "name": "olympia kyklos",
+      "img": "https://static.akacdn.ru/files/images/2020/02/0a902868687528d63c2f5ea407efa479.jpg",
+      "type": "sub",
+      "episode": "10"
+    },
+    {
+      "id": "rkmn",
+      "name": "devils line",
+      "img": "https://static.akacdn.ru/files/images/2018/02/29ea125bb8f7d20b8d6dca48ca446840.jpg",
+      "type": "sub",
+      "episode": "12"
+    }
+  ]
+}

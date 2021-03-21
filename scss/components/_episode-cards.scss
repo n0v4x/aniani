@@ -1,0 +1,39 @@
+$episode-cards-list-margin-x: -10px;
+$episode-cards-more-btn-bg: $primary;
+$episode-cards-more-btn-color: $gray-light;
+$episode-cards-more-btn-font-size: $font-size-md;
+$episode-cards-more-btn-border-radius: $border-radis-sm;
+$episode-cards-more-btn-padding-y: $padding-md;
+
+.episode-cards {
+  &__list {
+    // margin: 0 $episode-cards-list-margin-x;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__more-btn {
+    display: block;
+    width: 100%;
+    border: 0;
+    background-color: $episode-cards-more-btn-bg;
+    color: $episode-cards-more-btn-color;
+    font: inherit;
+    padding: $episode-cards-more-btn-padding-y;
+    font-size: $episode-cards-more-btn-font-size;
+    text-transform: uppercase;
+    border-radius: $episode-cards-more-btn-border-radius;
+    cursor: pointer;
+
+    &:focus,
+    &:active {
+      outline-color: none;
+      border: 0;
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+$tabbar-bg: $body-bg;
+$tabbar-z-index: 1010;
+$tabbar-shadow: 0 -15px 20px 20px $tabbar-bg;
+
+$tabbar-after-height: 50px;
+$tabbar-after-bg: 20px;
+
+$tabbar-height: 90px;
+
+$tabbar-list-margin-bottom: 10px;
+
+$tabbar-item-margin-x: $margin-xs;
+
+$tabbar-item-link-color: $gray-light;
+$tabbar-item-link-active-color: $primary;
+
+$tabbar-item-icon-wrapper-margin-bottom: $margin-sm;
+
+$tabbar-item-icon-stroke-width: 1px;
+$tabbar-item-icon-size: rem(28px);
+
+$tabbar-item-label-text-transform: uppercase;
+$tabbar-item-label-font-size: $font-size-xs;
+$tabbar-item-label-letter-spacing: 1px;
+$tabbar-item-label-text-indent: $tabbar-item-label-letter-spacing;
+
+.tabbar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: $tabbar-bg;
+  z-index: $tabbar-z-index;
+
+  &:after {
+    content: "";
+
+    width: 100%;
+    height: $tabbar-after-height;
+
+    position: absolute;
+    top: -$tabbar-after-height;
+
+    background: linear-gradient(0deg, $body-bg, transparent);
+
+    pointer-events: none;
+  }
+
+  &__inner {
+    height: $tabbar-height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: $tabbar-list-margin-bottom;
+  }
+
+  &__item {
+    margin: 0 $tabbar-item-margin-x;
+    flex: 1 1 100%;
+  }
+
+  &__item-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: $tabbar-item-link-color;
+
+    &_active {
+      color: $tabbar-item-link-active-color;
+    }
+  }
+
+  &__item-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: $tabbar-item-icon-wrapper-margin-bottom;
+  }
+
+  &__item-icon {
+    stroke-width: $tabbar-item-icon-stroke-width;
+    height: $tabbar-item-icon-size;
+    width: $tabbar-item-icon-size;
+  }
+
+  &__item-label {
+    text-transform: $tabbar-item-label-text-transform;
+    font-size: $tabbar-item-label-font-size;
+    text-align: center;
+    letter-spacing: $tabbar-item-label-letter-spacing;
+    text-indent: $tabbar-item-label-text-indent;
+  }
+}
